@@ -1,0 +1,62 @@
+.bg-black {
+    background: black;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 600px;
+    height: 400px;
+    background: white;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading h1 {
+    margin: 10px;
+}
+
+.heading img {
+    width: 80px;
+    height: 70px;
+    margin: 10px;
+}
+
+.cuerpo {
+    display: flex;
+}
+
+.cuerpo .left {
+    width: 50%;
+    padding: 10px;
+}
+
+.cuerpo .right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer button {
+    background: gray;
+    color: black;
+    border: none;
+    border-style: none;
+    padding: 20px
+}
+
+
+.footer {
+    text-align: center;
+}
